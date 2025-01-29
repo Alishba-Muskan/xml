@@ -86,11 +86,11 @@
                         <!-- Iterate over all student elements -->
                         <xsl:for-each select="class/student">
                             <tr>
-                                <td><xsl:value-of select="name" /></td>
-                                <td><xsl:value-of select="FatherName" /></td>
-                                <td><xsl:value-of select="StudentID" /></td>
-                                <td><xsl:value-of select="phone" /></td>
-                                <td><xsl:value-of select="email" /></td>
+                                <td><xsl:value-of select="name"/></td>
+                                <td><xsl:value-of select="FatherName"/></td>
+                                <td><xsl:value-of select="StudentID"/></td>
+                                <td><xsl:value-of select="phone"/></td>
+                                <td><xsl:value-of select="email"/></td>
                             </tr>
                         </xsl:for-each>
                     </tbody>
