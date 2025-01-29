@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<class>
+    <student>
+        <name>Muskan</name>
+        <FatherName>Ilyas</FatherName>
+        <StudentID>10</StudentID>
+        <phone>+1-555-1234</phone>
+        <email>Muskan@example.com</email>
+    </student>
+    <student>
+        <name>Ali</name>
+        <FatherName>Ahmed</FatherName>
+        <StudentID>11</StudentID>
+        <phone>+1-555-5678</phone>
+        <email>Ali@example.com</email>
+    </student>
+</class>
