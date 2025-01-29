@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="UTF-8" indent="yes" />
-
-    <!-- Root template -->
     <xsl:template match="/">
         <html>
             <head>
@@ -83,7 +81,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Iterate over all student elements -->
                         <xsl:for-each select="class/student">
                             <tr>
                                 <td><xsl:value-of select="name"/></td>
