@@ -6,7 +6,6 @@
             <head>
                 <title>Student Information</title>
                 <style>
-                    /* Overall page styling */
                     body {
                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                         background-color: #f5f7fb;
@@ -18,8 +17,6 @@
                         color:rgb(0, 0, 0);
                         margin-bottom: 20px;
                     }
-                    
-                    /* Table Styling */
                     table {
                         width: 100%;
                         border-collapse: collapse;
@@ -31,8 +28,6 @@
                         padding: 12px 15px;
                         border: 1px solid #ddd;
                     }
-
-                    /* Table header styling */
                     th {
                         background-color:rgb(0, 114, 105);
                         color: white;
@@ -40,8 +35,6 @@
                         font-weight: bold;
                         text-transform: uppercase;
                     }
-
-                    /* Table row styling */
                     tr {
                         background-color: #f9f9f9;
                     }
@@ -49,14 +42,10 @@
                     tr:hover {
                         background-color: #f1f1f1;
                     }
-
-                    /* Hover effect on rows */
                     tr:hover td {
                         color:rgb(0, 114, 105);
                         cursor: pointer;
                     }
-                    
-                    /* Responsive design for smaller screens */
                     @media only screen and (max-width: 600px) {
                         table {
                             font-size: 14px;
@@ -65,7 +54,6 @@
                             padding: 10px;
                         }
                     }
-
                 </style>
             </head>
             <body>
