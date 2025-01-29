@@ -17,7 +17,7 @@
                     }
                     h1 {
                         text-align: center;
-                        color: #2d3e50;
+                        color:rgb(0, 0, 0);
                         margin-bottom: 20px;
                     }
                     
